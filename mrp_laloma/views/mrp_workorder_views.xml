@@ -1,0 +1,12 @@
+﻿<odoo>
+    <record id="view_workorder_form_inherit_po" model="ir.ui.view">
+        <field name="name">mrp.workorder.form.purchase.link</field>
+        <field name="model">mrp.workorder</field>
+        <field name="inherit_id" ref="mrp.mrp_workorder_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='production_id']" position="after">
+                <field name="purchase_order_id"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>

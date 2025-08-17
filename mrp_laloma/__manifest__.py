@@ -1,5 +1,5 @@
 ﻿{
-    "name": "Workorder Purchase Link",
+    "name": "mrp_laloma",
     "version": "18.0.1.0.0",
     "summary": "Link Manufacturing Work Orders to Purchase Orders",
     "author": "Your Name",
